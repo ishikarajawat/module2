@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "ght-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishikarajawat/module2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://ishikarajawat.github.io/module2",
+  "homepage":"https://ishikarajawat.github.io/MYWEBSITE",
+  "bugs": {
+    "url": "https://github.com/ishikarajawat/module2/issues"
+  },
+  "homepage": "https://github.com/ishikarajawat/module2#readme",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
