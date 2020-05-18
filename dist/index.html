@@ -1,102 +1,16 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style>
-        *{
-            box-sizing:border-box;
-        }
-        h1{
-            margin-top:10px;
-            margin-bottom:25px;
-        }
-        nav{
-            background-color:gray;
-            border-top:2px solid black;
-            border-bottom:2px solid black;
-            font-weight:bold;
-        }
-        section{
-            background-color:gray;
-            margin:15px;
-            padding:5px;
-        }
-        li{
-            border-top:2px solid black;
-            border-bottom:2px solid black;
-        }
-    </style>
+  <meta charset="utf-8">
+  <title>Module 4 Solution Starter</title>
+  <script>
+    var names = []; // DO NOT REMOVE
+  </script>
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Food,LLC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link text-center" href="#">Chicken<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-center" href="#">Beef</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-center" href="#">Sushi</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-        <h1 class="text-center">Our Menu</h1>
-    <section>
-        <h2 class="text-center">Chicken</h2>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias 
-        repudiandae, maiores laudantium cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam
-        culpa reprehenderit fugiat corrupti maxime? Quod, molestiae provident!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!
-    </section>
-    <div>
-    <section>
-        <h2 class="text-center">Beef</h2>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas dolorum magni commodi culpa rem.
-         Laudantium officiis eum incidunt molestias culpa aspernatur. Quidem tempore repellat cupiditate in distinctio rem, 
-         impedit accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-         cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-         fugiat corrupti maxime? Quod, molestiae provident!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-         cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-         fugiat corrupti maxime? Quod, molestiae provident!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-         cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-         fugiat corrupti maxime? Quod, molestiae provident!
-    </section>
-</div>
-    <section>
-        <h2 class="text-center">Sushi</h2>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sint, et quam debitis odio nihil fugiat voluptas 
-        dignissimos! Quia iure, ex maiores adipisci soluta nobis cum. Doloribus sit fuga veritatis?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias repudiandae, maiores laudantium 
-        cupiditate aliquid qui nisi consequuntur at consectetur deserunt aperiam veniam culpa reprehenderit 
-        fugiat corrupti maxime? Quod, molestiae provident!
-    </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <h1>Module 4 Solution Starter</h1>
 </body>
 </html>

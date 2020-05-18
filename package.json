@@ -1,10 +1,10 @@
 {
-  "name": "Mywebsite",
+  "name": "module4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "ght-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://ishikarajawat.github.io/MYWEBSITE",
+  "homepage":"https://ishikarajawat.github.io/module4"
   "bugs": {
     "url": "https://github.com/ishikarajawat/module2/issues"
   },
