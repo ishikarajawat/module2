@@ -6,18 +6,10 @@
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ishikarajawat/module2.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://ishikarajawat.github.io/module4"
-  "bugs": {
-    "url": "https://github.com/ishikarajawat/module2/issues"
-  },
-  "homepage": "https://github.com/ishikarajawat/module2#readme",
+  "homepage":"https://ishikarajawat.github.io/module4",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
